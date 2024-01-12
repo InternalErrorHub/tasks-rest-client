@@ -1,0 +1,12 @@
+/gradle/
+/.openapi-generator/
+/target/
+/.travis.yml
+/build.gradle
+/build.sbt
+/git_push.sh
+/gradle.properties
+/gradlew
+/gradlew.bat
+/settings.gradle
+/spring-testing-client.iml

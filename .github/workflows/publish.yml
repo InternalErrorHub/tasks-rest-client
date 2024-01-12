@@ -1,0 +1,40 @@
+name: Build and Publish
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  packages: write
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+      - name: Setup Maven settings.xml
+        uses: whelk-io/maven-settings-xml-action@v21
+        with:
+          servers: >
+            [
+              {
+                "id": "github",
+                "username": "InternalErrorGit",
+                "password": "${env.GITHUB_TOKEN}"
+              }
+            ]
+          output_file: ${{ github.workspace }}/settings.xml
+      - name: Deploy with Maven
+        run: |
+          cat settings.xml
+          mvn deploy --batch-mode --settings ${{ github.workspace }}/settings.xml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
