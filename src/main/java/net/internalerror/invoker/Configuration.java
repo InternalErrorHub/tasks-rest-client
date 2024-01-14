@@ -13,7 +13,7 @@
 
 package net.internalerror.invoker;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-14T11:14:21.275211139Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-14T11:17:44.966882440Z[Etc/UTC]")
 public class Configuration {
     public static final String VERSION = "1.0.0-SNAPSHOT";
 
