@@ -13,7 +13,7 @@
 
 package net.internalerror.invoker;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-14T11:22:18.555323929Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-14T11:39:20.991644231Z[Etc/UTC]")
 public class Pair {
     private String name = "";
     private String value = "";
