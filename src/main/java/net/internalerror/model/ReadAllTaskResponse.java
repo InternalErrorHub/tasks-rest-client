@@ -53,7 +53,7 @@ import net.internalerror.invoker.JSON;
 /**
  * ReadAllTaskResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-14T11:39:20.991644231Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-14T11:41:43.922683570Z[Etc/UTC]")
 public class ReadAllTaskResponse {
   public static final String SERIALIZED_NAME_LIST = "list";
   @SerializedName(SERIALIZED_NAME_LIST)
