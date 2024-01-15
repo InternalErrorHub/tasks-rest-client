@@ -51,7 +51,7 @@ import net.internalerror.invoker.JSON;
 /**
  * ReadDueTaskRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-15T11:43:18.686293166Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-15T11:53:34.141897169Z[Etc/UTC]")
 public class ReadDueTaskRequest {
   public static final String SERIALIZED_NAME_TOKEN = "token";
   @SerializedName(SERIALIZED_NAME_TOKEN)
