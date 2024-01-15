@@ -50,7 +50,7 @@ import net.internalerror.invoker.JSON;
 /**
  * UpdateUserRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-15T08:04:01.775412323Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-15T11:43:18.686293166Z[Etc/UTC]")
 public class UpdateUserRequest {
   public static final String SERIALIZED_NAME_TOKEN = "token";
   @SerializedName(SERIALIZED_NAME_TOKEN)

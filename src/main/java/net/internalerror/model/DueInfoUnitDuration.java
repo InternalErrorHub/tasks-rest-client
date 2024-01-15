@@ -53,7 +53,7 @@ import net.internalerror.invoker.JSON;
 /**
  * DueInfoUnitDuration
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-15T08:04:01.775412323Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-15T11:43:18.686293166Z[Etc/UTC]")
 public class DueInfoUnitDuration {
   public static final String SERIALIZED_NAME_SECONDS = "seconds";
   @SerializedName(SERIALIZED_NAME_SECONDS)
