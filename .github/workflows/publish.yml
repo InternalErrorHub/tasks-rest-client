@@ -35,6 +35,6 @@ jobs:
       - name: Deploy with Maven
         run: |
           cat settings.xml
-          mvn deploy --batch-mode --settings ${{ github.workspace }}/settings.xml
+          mvn deploy --batch-mode --settings ${{ github.workspace }}/settings.xml -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/InternalErrorHub/tasks-rest-client
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
