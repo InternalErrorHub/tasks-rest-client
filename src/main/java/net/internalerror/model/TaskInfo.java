@@ -51,7 +51,7 @@ import net.internalerror.invoker.JSON;
 /**
  * TaskInfo
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-15T07:59:23.775834068Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-15T08:04:01.775412323Z[Etc/UTC]")
 public class TaskInfo {
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)
