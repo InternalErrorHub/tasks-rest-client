@@ -51,7 +51,7 @@ import net.internalerror.invoker.JSON;
 /**
  * DueInfo
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-27T21:36:14.285176533Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-27T21:45:57.079478540Z[Etc/UTC]")
 public class DueInfo {
   public static final String SERIALIZED_NAME_UNIT = "unit";
   @SerializedName(SERIALIZED_NAME_UNIT)
