@@ -50,7 +50,7 @@ import net.internalerror.invoker.JSON;
 /**
  * DeleteTaskResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-27T21:27:32.307256677Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-01-27T21:36:14.285176533Z[Etc/UTC]")
 public class DeleteTaskResponse {
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)
