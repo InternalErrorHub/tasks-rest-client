@@ -50,7 +50,7 @@ import net.internalerror.invoker.JSON;
 /**
  * RegisterResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-02-02T08:35:40.553223187Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-02-08T17:48:18.755323570Z[Etc/UTC]")
 public class RegisterResponse {
   public static final String SERIALIZED_NAME_EMAIL = "email";
   @SerializedName(SERIALIZED_NAME_EMAIL)
